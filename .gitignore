@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# pip tools
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest
+.cache/
+*.cover
+coverage.*
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and local dbs
+*.log
+*.sqlite3
+
+# Pydantic cache
+__pydantic__/  # if using newer Pydantic v2
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Pyproject build
+*.egg-info/
+.eggs/
